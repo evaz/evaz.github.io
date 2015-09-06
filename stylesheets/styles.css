@@ -16,6 +16,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+p, ul, ol, table, pre, dl {
+  margin:0 0 20px;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
@@ -48,6 +52,13 @@ a small {
 .wrapper {
   width:860px;
   margin:0 auto;
+}
+
+.face {
+  width:304px;
+  height:328px;
+  border-radius:50%;
+  text-align: left;
 }
 
 blockquote {
@@ -96,9 +107,11 @@ img {
 }
 
 header {
-  width:270px;
-  float:left;
+  width:370px;
+  float: left;
   position:fixed;
+  text-align: center;
+  margin-top: 10%
 }
 
 header ul {
